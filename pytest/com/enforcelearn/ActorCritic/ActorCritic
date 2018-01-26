@@ -1,0 +1,6 @@
+Actor Critic主要结合了Q-Learning和Policy Gradients的思想：
+有一个Actor在实际中做各种动作，有一个Critic告诉这个Actor你现在的这个动作是不是好的，是不是坏的。
+如果是好的，那么加大幅度更新，如果是坏的话，那么减小幅度更新
+
+Actor是行为的概率
+Critic是在这个状态下的价值
